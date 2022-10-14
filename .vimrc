@@ -16,8 +16,11 @@ syntax on
 " Add numbers to each line on the left-hand side
 set number
 
-" highlight cursor line underneath the cursor horizontally
-set cursorline
+" underline cursor line underneath the cursor horizontally
+set cursorline 
+
+" Set termguicolors
+set termguicolors
 
 " Highlight cursor line underneath the cursor vertically
 " set cursorcolumn
